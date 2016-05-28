@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+  <title>Eye Controls</title>
+
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/globe-gaze.css">
+<link rel="stylesheet" href="node_modules/cesium/Build/Cesium/Widgets/widgets.css">
+
+  <script defer src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script defer src="js/webgazer.js"></script>
+  <script defer src="node_modules/cesium/Build/Cesium/Cesium.js"></script>
+  <script defer src="js/globe-gaze.js"></script>
+
+</head>
+<body>
+    <div id="container">
+        <div id="cesium-div">
+            <div id="training-container">
+                <h1 id="loading"> Loading... </h1>
+                <div id="modal" style="display: none;">
+
+                    <h3> Hey there! Welcome to an experimental way of exploring 3D maps </h3>
+
+                    <p>The aim here is to control the 3D globe using your eyes... that's right! You will train
+                    the program to learn your eye movements by clicking on boxes that will appear. Please look at them
+                    whislt you click. This will in turn allow you to move its directions by looking to the edge of
+                    the screens in the direction you wish to move. This is still a <b>beta project</b>.
+                    Feedback is apreciated! Ready to go?</p>
+
+                    <button id="yep">Yep!</button>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>

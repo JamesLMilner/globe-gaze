@@ -1,0 +1,27 @@
+{
+  "name": "eye-control",
+  "version": "1.0.0",
+  "description": "A globe you can control with your eyes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesMilnerUK/eye-controls.git"
+  },
+  "keywords": [
+    "map",
+    "globe",
+    "js",
+    "eye",
+    "control",
+    "webgazer"
+  ],
+  "author": "James Milner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesMilnerUK/eye-controls/issues"
+  },
+  "homepage": "https://github.com/JamesMilnerUK/eye-controls#readme"
+}

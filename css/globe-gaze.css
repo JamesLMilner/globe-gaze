@@ -1,0 +1,113 @@
+html, body, #touch-prevention, #container, #cesium-div {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
+}
+
+#cesium-div {
+    opacity: 0.98;
+}
+
+#loading {
+    padding-top: 30%;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+#training-container {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.96);
+    z-index: 100;
+}
+
+
+#modal {
+    z-index: 0;
+    color: white;
+    margin: 20%;
+}
+
+#yep {
+    background-color: #5379F9;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+    display: block;
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+    width: 100px;
+    curors: pointer;
+}
+
+#trainer {
+
+    top: 0;
+    left: 0;
+    color: white;
+    padding: 10px;
+    background-color: #5379F9;
+    width: 120px;
+    text-align: center;
+    border-radius: 1px;
+    cursor: pointer;
+    z-index: 150;
+    position: absolute;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently
+                              not supported by any browser */
+}
+
+#gaze-dot {
+    border-radius: 50px;
+    background-color: #FF6969 !important;
+    z-index: 200;
+    opacity: 0;
+}
+
+#overlay {
+    cursor: pointer;
+}
+
+#webgazerVideoFeed, #webgazerVideoCanvas, #overlay {
+    border-bottom-left-radius: 2px;
+    z-index: -100;
+}
+
+.pan-left {
+    box-shadow: inset 100px 0px 100px -10px #5379F9;
+}
+
+.pan-right {
+        box-shadow: inset -100px 0px 100px -10px #5379F9
+}
+
+.pan-up {
+    box-shadow: inset 0px 100px 100px -10px #5379F9;
+}
+
+.pan-down {
+    box-shadow: inset 0px -100px 100px -10px #5379F9;
+}
+
+.cesium-viewer-animationContainer, .cesium-viewer-timelineContainer{
+    display: none;
+}
+
+.cesium-viewer-bottom {
+    left: 0 !important;
+    bottom: 0 !important;
+}
